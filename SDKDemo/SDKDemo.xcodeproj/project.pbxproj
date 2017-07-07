@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA26F2E51ED2996700CF56DA /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA26F2E41ED2996700CF56DA /* GSDK.framework */; };
 		DAB632351E9A89480069463E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB632341E9A89480069463E /* main.m */; };
 		DAB632401E9A89480069463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6323F1E9A89480069463E /* Assets.xcassets */; };
 		DAB632431E9A89480069463E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB632411E9A89480069463E /* LaunchScreen.storyboard */; };
@@ -27,10 +28,10 @@
 		DABEC3DF1E9BF8A300C866B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3DE1E9BF8A300C866B0 /* SystemConfiguration.framework */; };
 		DABEC3E11E9BF8B500C866B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3E01E9BF8B500C866B0 /* Foundation.framework */; };
 		DABEC3E31E9BF8BD00C866B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3E21E9BF8BD00C866B0 /* UIKit.framework */; };
-		DAF5F6971EBC6B3E00006D3F /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF5F6961EBC6B3E00006D3F /* GSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA26F2E41ED2996700CF56DA /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
 		DAB632301E9A89480069463E /* SDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB632341E9A89480069463E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB6323F1E9A89480069463E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		DABEC3DE1E9BF8A300C866B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DABEC3E01E9BF8B500C866B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DABEC3E21E9BF8BD00C866B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DAF5F6961EBC6B3E00006D3F /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 				DABEC3D91E9BF85C00C866B0 /* CoreData.framework in Frameworks */,
 				DABEC3D71E9BF84900C866B0 /* CoreGraphics.framework in Frameworks */,
 				DABEC3D51E9BF83500C866B0 /* libz.tbd in Frameworks */,
-				DAF5F6971EBC6B3E00006D3F /* GSDK.framework in Frameworks */,
+				DA26F2E51ED2996700CF56DA /* GSDK.framework in Frameworks */,
 				DABEC3D31E9BF82800C866B0 /* libsqlite3.tbd in Frameworks */,
 				DABEC3D11E9BF80E00C866B0 /* libc++.tbd in Frameworks */,
 				DABEC3CF1E9BF7FB00C866B0 /* Security.framework in Frameworks */,
@@ -128,7 +128,7 @@
 		DAB632521E9A89DF0069463E /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				DAF5F6961EBC6B3E00006D3F /* GSDK.framework */,
+				DA26F2E41ED2996700CF56DA /* GSDK.framework */,
 				DAB632591E9A8A730069463E /* SDKResources.bundle */,
 				DAB632551E9A8A3F0069463E /* MBProgressHUD */,
 			);

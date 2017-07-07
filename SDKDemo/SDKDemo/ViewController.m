@@ -2,7 +2,7 @@
 #import "ViewController.h"
 #import <GSDK/DBSDK.h>
 
-@interface ViewController () <SDKPayDelegate>
+@interface ViewController () <SDKBuyDelegate>
 
 @end
 
@@ -91,12 +91,12 @@
 }
 
 #pragma mark - delegate
-- (void)SDKPaySuccess
+- (void)SDKBuySuccess
 {
     NSLog(@"购买成功");
 }
 
-- (void)SDKPayFailure:(NSString *)errorMsg
+- (void)SDKBuyFailure:(NSString *)errorMsg
 {
     NSLog(@"购买失败：%@", errorMsg);
 }

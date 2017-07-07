@@ -1,3 +1,20 @@
+
+DBSDK_V1.1.0
+   更新日志：
+   去掉了自定义方法中的pay字样！
+   
+   注意：如果已经对接v1.0.1版本SDK 替换下GSDK.framework
+   支付代理名由SDKPayDelegate -> SDKBuyDelegate
+   代理方法：SDKPaySuccess -> SDKBuySuccess
+           SDKPayFailure: -> SDKBuyFailure:
+
+
+
+
+
+
+
+
 DBSDK_V1.0.1
    更新日志：
    去掉内含第三方支付相关代码！

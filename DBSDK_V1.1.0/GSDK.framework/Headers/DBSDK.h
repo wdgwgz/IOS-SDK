@@ -4,9 +4,9 @@
 // 登陆成功后的 回调
 typedef void(^loginSuccessBlock)(NSString *sessionID, NSString *sdkUid);
 
-@protocol SDKPayDelegate;
+@protocol SDKBuyDelegate;
 @interface DBSDK : NSObject
-@property (nonatomic, weak) id <SDKPayDelegate> delegate;
+@property (nonatomic, weak) id <SDKBuyDelegate> delegate;
 @property (nonatomic, copy) loginSuccessBlock loginSuccessBlcok;
 
 + (instancetype)sharedSDK;
@@ -22,12 +22,12 @@ typedef void(^loginSuccessBlock)(NSString *sessionID, NSString *sdkUid);
 
 @end
 
-@protocol SDKPayDelegate <NSObject>
+@protocol SDKBuyDelegate <NSObject>
 // 购买成功
-- (void)SDKPaySuccess;
+- (void)SDKBuySuccess;
 
 // 购买失败
-- (void)SDKPayFailure:(NSString *)errorMsg;
+- (void)SDKBuyFailure:(NSString *)errorMsg;
 
 
 @end
