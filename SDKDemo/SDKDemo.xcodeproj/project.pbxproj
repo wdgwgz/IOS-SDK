@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA26F2E51ED2996700CF56DA /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA26F2E41ED2996700CF56DA /* GSDK.framework */; };
+		DA3516F61F1F40F600A4E007 /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3516F11F1F40F600A4E007 /* GSDK.framework */; };
+		DA3516F71F1F40F600A4E007 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */; };
+		DA3516FA1F1F426500A4E007 /* SDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA3516F91F1F426500A4E007 /* SDKResources.bundle */; };
 		DAB632351E9A89480069463E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB632341E9A89480069463E /* main.m */; };
 		DAB632401E9A89480069463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6323F1E9A89480069463E /* Assets.xcassets */; };
 		DAB632431E9A89480069463E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB632411E9A89480069463E /* LaunchScreen.storyboard */; };
 		DAB6324E1E9A89A30069463E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB6324B1E9A89A30069463E /* AppDelegate.m */; };
 		DAB6324F1E9A89A30069463E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB6324D1E9A89A30069463E /* ViewController.m */; };
 		DAB632511E9A89AC0069463E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB632501E9A89AC0069463E /* Main.storyboard */; };
-		DAB632581E9A8A3F0069463E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB632571E9A8A3F0069463E /* MBProgressHUD.m */; };
-		DAB6325A1E9A8A730069463E /* SDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAB632591E9A8A730069463E /* SDKResources.bundle */; };
 		DABEC3BA1E9BEF4400C866B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3B91E9BEF4400C866B0 /* StoreKit.framework */; };
 		DABEC3CF1E9BF7FB00C866B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3CE1E9BF7FB00C866B0 /* Security.framework */; };
 		DABEC3D11E9BF80E00C866B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEC3D01E9BF80E00C866B0 /* libc++.tbd */; };
@@ -31,7 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA26F2E41ED2996700CF56DA /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
+		DA3516F11F1F40F600A4E007 /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
+		DA3516F31F1F40F600A4E007 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DA3516F91F1F426500A4E007 /* SDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKResources.bundle; sourceTree = "<group>"; };
 		DAB632301E9A89480069463E /* SDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB632341E9A89480069463E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB6323F1E9A89480069463E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,9 +45,6 @@
 		DAB6324C1E9A89A30069463E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DAB6324D1E9A89A30069463E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DAB632501E9A89AC0069463E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DAB632561E9A8A3F0069463E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		DAB632571E9A8A3F0069463E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		DAB632591E9A8A730069463E /* SDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKResources.bundle; sourceTree = "<group>"; };
 		DABEC3B91E9BEF4400C866B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DABEC3CE1E9BF7FB00C866B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DABEC3D01E9BF80E00C866B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -72,7 +72,7 @@
 				DABEC3D91E9BF85C00C866B0 /* CoreData.framework in Frameworks */,
 				DABEC3D71E9BF84900C866B0 /* CoreGraphics.framework in Frameworks */,
 				DABEC3D51E9BF83500C866B0 /* libz.tbd in Frameworks */,
-				DA26F2E51ED2996700CF56DA /* GSDK.framework in Frameworks */,
+				DA3516F61F1F40F600A4E007 /* GSDK.framework in Frameworks */,
 				DABEC3D31E9BF82800C866B0 /* libsqlite3.tbd in Frameworks */,
 				DABEC3D11E9BF80E00C866B0 /* libc++.tbd in Frameworks */,
 				DABEC3CF1E9BF7FB00C866B0 /* Security.framework in Frameworks */,
@@ -83,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA3516F21F1F40F600A4E007 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DA3516F31F1F40F600A4E007 /* MBProgressHUD.h */,
+				DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		DAB632271E9A89480069463E = {
 			isa = PBXGroup;
 			children = (
@@ -128,20 +137,11 @@
 		DAB632521E9A89DF0069463E /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				DA26F2E41ED2996700CF56DA /* GSDK.framework */,
-				DAB632591E9A8A730069463E /* SDKResources.bundle */,
-				DAB632551E9A8A3F0069463E /* MBProgressHUD */,
+				DA3516F91F1F426500A4E007 /* SDKResources.bundle */,
+				DA3516F11F1F40F600A4E007 /* GSDK.framework */,
+				DA3516F21F1F40F600A4E007 /* MBProgressHUD */,
 			);
 			name = SDK;
-			sourceTree = "<group>";
-		};
-		DAB632551E9A8A3F0069463E /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				DAB632561E9A8A3F0069463E /* MBProgressHUD.h */,
-				DAB632571E9A8A3F0069463E /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		DABEC3B81E9BEF4400C866B0 /* Frameworks */ = {
@@ -194,7 +194,7 @@
 					DAB6322F1E9A89480069463E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7V83SYRVTD;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -226,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB6325A1E9A8A730069463E /* SDKResources.bundle in Resources */,
+				DA3516FA1F1F426500A4E007 /* SDKResources.bundle in Resources */,
 				DAB632511E9A89AC0069463E /* Main.storyboard in Resources */,
 				DAB632431E9A89480069463E /* LaunchScreen.storyboard in Resources */,
 				DAB632401E9A89480069463E /* Assets.xcassets in Resources */,
@@ -243,7 +243,7 @@
 				DAB6324F1E9A89A30069463E /* ViewController.m in Sources */,
 				DAB6324E1E9A89A30069463E /* AppDelegate.m in Sources */,
 				DAB632351E9A89480069463E /* main.m in Sources */,
-				DAB632581E9A8A3F0069463E /* MBProgressHUD.m in Sources */,
+				DA3516F71F1F40F600A4E007 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7V83SYRVTD;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -365,10 +366,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tgkd.game.youxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.play800.demo.show;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "830ac152-9014-4ebb-bc49-df2006aa7442";
-				PROVISIONING_PROFILE_SPECIFIER = CeShiZhuanYong_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -376,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7V83SYRVTD;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,10 +388,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tgkd.game.youxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.play800.demo.show;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "81002617-e4a1-421c-9147-0adc35a3e5d8";
-				PROVISIONING_PROFILE_SPECIFIER = CeShiZhuanYong_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
