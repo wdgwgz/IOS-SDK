@@ -82,7 +82,7 @@
                                @"role_id"        : @"123123",
                                @"role_name"      : @"角色名",
                                @"cp_order_id"    : strRandom,
-                               @"product_id"     : @"com.tgkd.game.youxi.60",
+                               @"product_id"     : @"com.sdk.demo.6",
                                @"product_name"   : @"60砖石"
                                };
     [[DBSDK sharedSDK] buyGoods:infoDict];

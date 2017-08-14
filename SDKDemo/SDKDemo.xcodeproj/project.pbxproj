@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA3516F71F1F40F600A4E007 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */; };
 		DA3516FA1F1F426500A4E007 /* SDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA3516F91F1F426500A4E007 /* SDKResources.bundle */; };
-		DA42DBC61F24BD5A003107A5 /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA42DBC51F24BD5A003107A5 /* GSDK.framework */; };
+		DAA2ABB81F41664C0047E952 /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA2ABB71F41664C0047E952 /* GSDK.framework */; };
 		DAB632351E9A89480069463E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB632341E9A89480069463E /* main.m */; };
 		DAB632401E9A89480069463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6323F1E9A89480069463E /* Assets.xcassets */; };
 		DAB632431E9A89480069463E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB632411E9A89480069463E /* LaunchScreen.storyboard */; };
@@ -34,7 +34,7 @@
 		DA3516F31F1F40F600A4E007 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DA3516F91F1F426500A4E007 /* SDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKResources.bundle; sourceTree = "<group>"; };
-		DA42DBC51F24BD5A003107A5 /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
+		DAA2ABB71F41664C0047E952 /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
 		DAB632301E9A89480069463E /* SDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB632341E9A89480069463E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB6323F1E9A89480069463E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				DABEC3D91E9BF85C00C866B0 /* CoreData.framework in Frameworks */,
 				DABEC3D71E9BF84900C866B0 /* CoreGraphics.framework in Frameworks */,
 				DABEC3D51E9BF83500C866B0 /* libz.tbd in Frameworks */,
-				DA42DBC61F24BD5A003107A5 /* GSDK.framework in Frameworks */,
+				DAA2ABB81F41664C0047E952 /* GSDK.framework in Frameworks */,
 				DABEC3D31E9BF82800C866B0 /* libsqlite3.tbd in Frameworks */,
 				DABEC3D11E9BF80E00C866B0 /* libc++.tbd in Frameworks */,
 				DABEC3CF1E9BF7FB00C866B0 /* Security.framework in Frameworks */,
@@ -137,7 +137,7 @@
 		DAB632521E9A89DF0069463E /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				DA42DBC51F24BD5A003107A5 /* GSDK.framework */,
+				DAA2ABB71F41664C0047E952 /* GSDK.framework */,
 				DA3516F91F1F426500A4E007 /* SDKResources.bundle */,
 				DA3516F21F1F40F600A4E007 /* MBProgressHUD */,
 			);

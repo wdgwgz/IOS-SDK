@@ -1,3 +1,8 @@
+DBSDK_V1.4.0
+   更新日志：
+   改善用户体验
+   
+   注意：如果已经对接v1.3.0版本SDK 替换下GSDK.framework即可！
 
 
 DBSDK_V1.3.0
