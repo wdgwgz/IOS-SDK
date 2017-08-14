@@ -50,17 +50,16 @@
 - (IBAction)payClick:(UIButton *)sender {
     
     
-//    int x = arc4random() % 100;
-//    for (int i = 0; i < 10; i++) {
-//        
-//    }
-    
     NSString *strRandom = @"";
     for(int i=0; i<10; i++)
     {
         strRandom = [ strRandom stringByAppendingFormat:@"%i",(arc4random() % 100)];
     }
     
+    
+    
+    // 用户点击购买按钮SDK会添加一个遮罩层，防止用户的多次点击，该笔订单结束后遮罩层会自动消失
+    // 此处游戏本身也可根据需要来自定义添加loading动画（为了更好的展现，建议添加）
     
     /**
      支付下单
