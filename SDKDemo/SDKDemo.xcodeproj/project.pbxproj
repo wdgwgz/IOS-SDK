@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DA3516F71F1F40F600A4E007 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */; };
 		DA3516FA1F1F426500A4E007 /* SDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA3516F91F1F426500A4E007 /* SDKResources.bundle */; };
-		DAA2ABB81F41664C0047E952 /* GSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA2ABB71F41664C0047E952 /* GSDK.framework */; };
 		DAB632351E9A89480069463E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB632341E9A89480069463E /* main.m */; };
 		DAB632401E9A89480069463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB6323F1E9A89480069463E /* Assets.xcassets */; };
 		DAB632431E9A89480069463E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB632411E9A89480069463E /* LaunchScreen.storyboard */; };
@@ -34,7 +33,6 @@
 		DA3516F31F1F40F600A4E007 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DA3516F41F1F40F600A4E007 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DA3516F91F1F426500A4E007 /* SDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKResources.bundle; sourceTree = "<group>"; };
-		DAA2ABB71F41664C0047E952 /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
 		DAB632301E9A89480069463E /* SDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB632341E9A89480069463E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAB6323F1E9A89480069463E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +43,7 @@
 		DAB6324C1E9A89A30069463E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DAB6324D1E9A89A30069463E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DAB632501E9A89AC0069463E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DAB9C9231F98849600E4968F /* GSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSDK.framework; sourceTree = "<group>"; };
 		DABEC3B91E9BEF4400C866B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DABEC3CE1E9BF7FB00C866B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DABEC3D01E9BF80E00C866B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -72,7 +71,6 @@
 				DABEC3D91E9BF85C00C866B0 /* CoreData.framework in Frameworks */,
 				DABEC3D71E9BF84900C866B0 /* CoreGraphics.framework in Frameworks */,
 				DABEC3D51E9BF83500C866B0 /* libz.tbd in Frameworks */,
-				DAA2ABB81F41664C0047E952 /* GSDK.framework in Frameworks */,
 				DABEC3D31E9BF82800C866B0 /* libsqlite3.tbd in Frameworks */,
 				DABEC3D11E9BF80E00C866B0 /* libc++.tbd in Frameworks */,
 				DABEC3CF1E9BF7FB00C866B0 /* Security.framework in Frameworks */,
@@ -137,7 +135,7 @@
 		DAB632521E9A89DF0069463E /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				DAA2ABB71F41664C0047E952 /* GSDK.framework */,
+				DAB9C9231F98849600E4968F /* GSDK.framework */,
 				DA3516F91F1F426500A4E007 /* SDKResources.bundle */,
 				DA3516F21F1F40F600A4E007 /* MBProgressHUD */,
 			);
@@ -194,7 +192,7 @@
 					DAB6322F1E9A89480069463E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KPJ7M52V4B;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -368,8 +366,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gemor.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6438ab97-0e84-46e4-90ad-adef7004b1b9";
-				PROVISIONING_PROFILE_SPECIFIER = SDK_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -390,8 +388,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gemor.sdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6438ab97-0e84-46e4-90ad-adef7004b1b9";
-				PROVISIONING_PROFILE_SPECIFIER = SDK_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
